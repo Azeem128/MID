@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: hsl(0, 93%, 44%);
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.hero {
+    background-image: url('concertt.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+
+.event {
+    margin: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+.event img {
+  
+    width: 100%;
+    max-width: 300px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    background: #f8f8f8;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
